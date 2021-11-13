@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(110, 107, 107) 
+ }
+ header{
+    background-color:rgb(75, 74, 74);
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 200%;
+    animation: mudança-de-cor 2s ease infinite alternate-reverse;  
+}
+
+@keyframes mudança-de-cor{
+    0%{
+        background-color: rgba(39, 41, 53, 0.945) ;
+    }
+    50%{
+        background-color: rgba(78, 79, 88, 0.945);
+    }
+    100%{
+        background-color: rgba(40, 42, 54, 0.945);
+    }
+}
+
+#Titulo-principal{
+    transition: all 1s ease 0s;
+}
+#Titulo-principal:hover{
+    transform: rotateZ(360deg);
+}
+article{
+    margin: 24px;
+    color: rgb(27, 28, 39);
+    padding-top: 32px;
+    padding-left: 14px;
+}
+h2{
+    text-align: justify;
+    font-size: 150%;
+    font-family: 'Playball', cursive;
+    padding-left: 10px;
+    color: rgba(53, 51, 85, 0.548);     
+}
+a{  
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-family: Balsamiq Sans ; 
+    font-size: 100%;
+}
+
+.EMDB{
+    background-color:rgb(161, 157, 157) ;
+    margin-top: 5px 0;
+    padding-top: 20px;
+    padding: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(75, 74, 74);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Balsamiq Sans;
+    animation: mudança-de-cor 2s ease infinite alternate-reverse;  
+}
+
+@keyframes mudança-de-cor{
+    0%{
+        background-color: rgba(39, 41, 53, 0.945) ;
+    }
+    50%{
+        background-color: rgba(78, 79, 88, 0.945);
+    }
+    100%{
+        background-color: rgba(40, 42, 54, 0.945);
+    }
+}
+.donbosco{
+    width: 150px;
+    height: 150px;
+}
